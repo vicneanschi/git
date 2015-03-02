@@ -1,0 +1,14 @@
+// switch to a branch
+git checkout feature_branch_name
+
+// create a local branch
+git checkout -b feature_branch_name
+
+// list all branches
+git branch -l
+
+
+// push new local branch to a remote git repo and track it
+$ git checkout -b feature_branch_name
+... edit files, add and commit ...
+$ git push -u origin feature_branch_name
