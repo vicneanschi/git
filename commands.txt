@@ -14,6 +14,8 @@ $ git checkout -b feature_branch_name
 $ git push -u origin feature_branch_name
 
 
+// You can use git cherry-pick to apply a single commit by itself to your current branch.
+git cherry-pick d42c389f
 
 //TODO:
   //merge
