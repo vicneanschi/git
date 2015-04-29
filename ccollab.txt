@@ -1,3 +1,5 @@
 // add changes to Code Collaborator
 // you can use specific review_id if you need to add diff to existing review
 ccollab addgitdiff 'ask' origin/master
+
+$ ccollab addchangelist new HEAD
