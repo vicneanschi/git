@@ -36,6 +36,11 @@ git checkout -- .
 //TODO:
   //merge
   //rebase
+  
+// interactive rebase
+git rebase -i HEAD~4
+
+
 // undoing rebase
 git reflog
 
