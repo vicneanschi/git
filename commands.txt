@@ -36,3 +36,8 @@ git checkout -- .
 //TODO:
   //merge
   //rebase
+// undoing rebase
+git reflog
+
+# Suppose the old commit was HEAD@{5} in the ref log
+git reset --hard HEAD@{5}
