@@ -46,3 +46,7 @@ git reflog
 
 # Suppose the old commit was HEAD@{5} in the ref log
 git reset --hard HEAD@{5}
+
+//How to squash commits in git after they have been pushed?
+// push force
+git push --force origin master
